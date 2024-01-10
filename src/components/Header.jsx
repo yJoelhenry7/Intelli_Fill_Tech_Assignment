@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <>
     <header className='bg-white text-black fixed w-full z-10 border-b-2'>
-      <nav className='flex items-center justify-evenly p-3'>
+      <nav className='flex items-center justify-evenly p-3 flex-wrap'>
         <Link to='/'><img className="max-w-48" src={Images.logo} alt="Form Ease Logo" /></Link>
         <DesktopHeader />
         <Search />
@@ -24,8 +24,8 @@ const Header = () => {
           <FaBars className='scale-150 text-black' onClick={ showNavbar }/>
           <MobileHeader showNavbar={showNavbar} active={active}/>
         </div>
-        <Link to='/'> <TbBell className='scale-150 text-blue-500'/></Link>
-        <Link to='/'><img className="w-10 rounded-full" src="https://avatars.githubusercontent.com/u/86186443?v=4" alt="" /></Link>
+        <Link className="hidden md:flex" to='/'> <TbBell className='scale-150 text-blue-500'/></Link>
+        <Link className="hidden md:flex" to='/'><img className="w-10 rounded-full" src="https://avatars.githubusercontent.com/u/86186443?v=4" alt="" /></Link>
       </nav>
     </header>
     </>
