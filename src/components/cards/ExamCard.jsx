@@ -32,7 +32,7 @@ const ExamCard = ({s}) => {
             ))}
         </div>
         <div className="flex items-center justify-start gap-2 text-sm w-40">
-        <Link to='/' className="text-blue-500 flex items-center">view details <IoIosArrowForward className='scale-100'/></Link>
+        <Link to='/ExamDetails' className="text-blue-500 flex items-center">view details <IoIosArrowForward className='scale-100'/></Link>
         </div>
     </div>
     </>
