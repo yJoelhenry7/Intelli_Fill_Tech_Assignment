@@ -13,10 +13,10 @@ import { Link } from 'react-router-dom';
 const Carosual = () => {
     const images = [Images.banner,Images.banner,Images.banner,Images.banner,Images.banner,Images.banner,Images.banner,Images.banner];
   return (
-    <div className='pt-32 pl-48 flex items-center justify-center' style={{width:'80rem'}}>
+    <div className='pt-32 flex items-center justify-center' style={{width:'70rem',}}>
     <Swiper
         modules={[Navigation, Pagination, Autoplay, A11y]}
-        autoHeight= {true}
+        autoHeight= {false}
         slidesPerView={1}
         autoplay={{delay: 3000}}
         rewind={true}
