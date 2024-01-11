@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { DetailedDescription } from "../Data"
 
 const ExamCardDesc = () => {
   return (
@@ -6,29 +7,24 @@ const ExamCardDesc = () => {
         <div className="mx-2 p-2">
             <div>
                 <h1 className="text-xl font-bold">Exam Description:</h1>
-                <ul>
-                    <li>trbtbtjsbtjsbtjsbtjsbtjstbstbsjtsjtbstbststst</li>
-                    <li>trbtbtjsbtjsbtjsbtjsbtjstbstbsjtsjtbstbststst</li>
-                    <li>trbtbtjsbtjsbtjsbtjsbtjstbstbsjtsjtbstbststst</li>
-                    <li>trbtbtjsbtjsbtjsbtjsbtjstbstbsjtsjtbstbststst</li>
-                </ul>
+                 {DetailedDescription.filter((data)=> data.descType == 'Exam Description').map((data,i)=>(
+                    <li key={i}>{data.ExamDescription}</li>
+                 ))}
             </div>
             <div>
                 <h1 className="text-xl font-bold">Eligibility:</h1>
-                <ul>
-                    <li>trbtbtjsbtjsbtjsbtjsbtjstbstbsjtsjtbstbststst</li>
-                    <li>trbtbtjsbtjsbtjsbtjsbtjstbstbsjtsjtbstbststst</li>
-                    <li>trbtbtjsbtjsbtjsbtjsbtjstbstbsjtsjtbstbststst</li>
-                    <li>trbtbtjsbtjsbtjsbtjsbtjstbstbsjtsjtbstbststst</li>
+                <ul  className="list-disc">
+                 {DetailedDescription.filter((data)=> data.descType == 'Eligibility').map((data,i)=>(
+                    <li key={i}>{data.Eligibility}</li>
+                 ))}
                 </ul>
             </div>
             <div>
                 <h1 className="text-xl font-bold">Important Details:</h1>
-                <ul>
-                    <li>trbtbtjsbtjsbtjsbtjsbtjstbstbsjtsjtbstbststst</li>
-                    <li>trbtbtjsbtjsbtjsbtjsbtjstbstbsjtsjtbstbststst</li>
-                    <li>trbtbtjsbtjsbtjsbtjsbtjstbstbsjtsjtbstbststst</li>
-                    <li>trbtbtjsbtjsbtjsbtjsbtjstbstbsjtsjtbstbststst</li>
+                <ul  className="list-disc">
+                {DetailedDescription.filter((data)=> data.descType == 'Important Details').map((data,i)=>(
+                    <li key={i}>{data.ImportantDetails}</li>
+                ))}
                 </ul>
             </div>
         </div>

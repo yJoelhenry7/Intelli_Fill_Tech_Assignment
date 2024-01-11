@@ -30,9 +30,8 @@ const RecentExams = () => {
           >
             <div className='overflow-hidden'>
               {RecentExamTags.map((tag, i)=> (
-              <SwiperSlide key={i} style={{}} className='swiperr-slide mx-5 max-w-sm border border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-white rounded-full  bg-white'>
+              <SwiperSlide key={i} className='swiperr-slide mx-5 max-w-sm border border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-white rounded-full  bg-white'>
                  {tag=='ALL' ? (<span className='text-xs bg-blue-600 text-white rounded-full p-2 cursor-pointer'>{tag}</span>) : (<span className='text-xs  p-2 cursor-pointer'>{tag}</span>)}
-                
               </SwiperSlide>
               ))}
             </div>

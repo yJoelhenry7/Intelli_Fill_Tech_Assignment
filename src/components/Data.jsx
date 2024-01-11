@@ -107,5 +107,45 @@ const RecommendedExamsData = [
   ];
 
   const RecentExamTags =['ALL', 'GATE', 'AP EAPCET', 'BITSAT', 'JEE MAINS', 'JEE Advanced', 'TS EAMCET', 'Amity JEE', 'NEET', 'VITEEE', 'WBJEE', 'KCET', 'SRMJEEE', 'COMEDK', 'MHT CET', 'UPSEE', 'TANCET', 'KIITEE', 'GUJCET', 'Karnataka PGCET', 'OJEE', 'BVP CET', 'LPUNEST', 'SAAT', 'KIIT Entrance Exam', 'CUCET', 'AIIMS', 'AFMC', 'JIPMER', 'CMC Vellore', 'MANIPAL MET', 'IISER', 'NATA', 'CEED'];
+//   {
+//     
+// JEE Main is a standardized test conducted across different states in India
+// The exam is held at an undergraduate level to offer admissions to some of the best engineering and technical institutions that are Government funded or privately-owned.
+// -The exam conducting authority considers the best NTA score in preparing the ranks/merit list
+// Eligibility:
+// Age Limit-No age limit
+// Qualifying Exam-Class 12/Equivalent Exam
+// Percentage At least 75% in class 12/equivalent exam
+// Year of Passing-2021,2022 or appearing in 2023
+// Number of attempts Candidate can appear in JEE Main for 3 consecutive years after passing their class 12/equivalent exam
+// Important Details:
+// JEE Main 2023 January Session: NTA released the JEE Main 2023 session 1 will be conducted between 24th January and Ist February, 2023.
+// JEE Main 2023 April Session: NTA released the JEE Main 2023 session I will be conducted between Ist April, 2023 and 15th April. 2023
+//   }
+const DetailedDescription =[{
+  descType:'Exam Description',
+  ExamDescription: [
+  'This Exam is a standardized test conducted across different states in India',
+  'This exam is held at an undergraduate level to offer admissions to some of the best engineering and technical institutions that are Government funded or privately-owned.',
+  'This exam conducting authority considers the best NTA score in preparing the ranks/merit list'
+  ]
+},
+   {
+    descType:'Eligibility',
+    Eligibility:[
+    'Age Limit-No age limit',
+    'Qualifying Exam-Class 12/Equivalent Exam',
+    'Percentage At least 75% in class 12/equivalent exam',
+    'Year of Passing-2021,2022 or appearing in 2023',
+    'Number of attempts Candidate can appear in JEE Main for 3 consecutive years after passing their class 12/equivalent exam'
+  ]
+},{
+  descType: 'Important Details',
+  ImportantDetails:[
+    'Exam 2023 January Session: NTA released the Exam 2023 session 1 will be conducted between 24th January and Ist February, 2023.',
+    'Exam 2023 April Session: NTA released the Exam 2023 session I will be conducted between Ist April, 2023 and 15th April. 2023'
+  ]
+}]
 
-export {RecommendedExamsData , RecentExamsData ,RecentExamTags} 
+
+export {RecommendedExamsData , RecentExamsData ,RecentExamTags,DetailedDescription} 

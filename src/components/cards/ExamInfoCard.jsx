@@ -5,9 +5,9 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import GroupsIcon from '@mui/icons-material/Groups';
 import { Link } from "react-router-dom"
 
-const ExamInfoCard = ({ key , data }) => {
+const ExamInfoCard = ({ keyval , data }) => {
   return (
-    <div key={key} className="border-2 p-4 rounded-xl shadow-lg " style={{width:'35rem'}}>
+    <div key={keyval} className="border-2 p-4 rounded-xl shadow-lg " style={{width:'35rem'}}>
       <div className="flex items-center gap-4 justify-between">
         <div className="flex items-center gap-4">
           <img

@@ -2,6 +2,7 @@ import { Link, useLocation, useParams } from "react-router-dom"
 import { GoArrowLeft } from "react-icons/go";
 import ExamDetailCard from "./cards/ExamDetailCard";
 import ExamCardDesc from "./cards/ExamCardDesc";
+import ExamRelatedCard from "./cards/ExamRelatedCard";
 
 const DetailsContainer = () => {
     let { mode } = useParams();
@@ -20,6 +21,7 @@ const DetailsContainer = () => {
                <ExamCardDesc />
             </div>
             <div className="basis-1/2">
+                <ExamRelatedCard  mode={mode} id={id} />
             </div>
         </div>
       

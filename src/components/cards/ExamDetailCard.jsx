@@ -11,10 +11,10 @@ const ExamDetailCard = ({ mode, id}) => {
     {
         mode == 'RecommendedExams' ? 
         RecommendedExamsData.filter((data)=> data.id == id).map((data,i)=>(
-          <ExamInfoCard key={i} data={data} />
+          <ExamInfoCard keyval={i} key={i} data={data} />
         )) :   mode == 'RecentExams' ? 
         RecentExamsData.filter((data)=> data.id == id).map((data,i)=>(
-          <ExamInfoCard key={i} data={data} />
+          <ExamInfoCard keyval={i} key={i} data={data} />
         )) :
         ( <h1>No Data is present</h1>) 
     }
