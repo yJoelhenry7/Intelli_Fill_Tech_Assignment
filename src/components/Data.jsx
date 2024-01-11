@@ -8,6 +8,7 @@ const RecommendedExamsData = [
      board:'National Testing Agency',
      applied_people:'20 Lakhs',
      exam_fee:1200,
+     exam_date:'23 March,2024',
      tags:['Engineering','IIT','PCM']
     },
     {
@@ -17,6 +18,7 @@ const RecommendedExamsData = [
       board:'Union Public Service Commission',
       applied_people:'15 Lakhs',
       exam_fee:1500,
+      exam_date:'23 March,2024',
       tags:['Engineering','PCM']
     },
     {
@@ -26,6 +28,7 @@ const RecommendedExamsData = [
       board:'Staff Selection Commission',
       applied_people:'10 Lakhs',
       exam_fee:1000,
+      exam_date:'23 March,2024',
       tags:['Engineering','PCM']
     },
     {
@@ -35,6 +38,7 @@ const RecommendedExamsData = [
       board:'Railway Recruitment Board',
       applied_people:'7 Lakhs',
       exam_fee:850,
+      exam_date:'23 March,2024',
       tags:['Engineering','Degree','PCM']
     },
     {
@@ -44,6 +48,7 @@ const RecommendedExamsData = [
       board:'National Testing Agency',
       applied_people:'16 Lakhs',
       exam_fee:1700,
+      exam_date:'23 March,2024',
       tags:['MBBS','AIMS']
     }
   ];
@@ -56,6 +61,7 @@ const RecommendedExamsData = [
      board:'Vellore Institute of Technology',
      applied_people:'10 Lakhs',
      exam_fee:1500,
+     exam_date:'23 March,2024',
      tags:['Engineering','PCM']
     },
     {
@@ -65,6 +71,7 @@ const RecommendedExamsData = [
       board:'SRMIST',
       applied_people:'10 Lakhs',
       exam_fee:1000,
+      exam_date:'23 March,2024',
       tags:['Engineering','PCM']
     },
     {
@@ -74,6 +81,7 @@ const RecommendedExamsData = [
       board:'TSCHE',
       applied_people:'10 Lakhs',
       exam_fee:1000,
+      exam_date:'23 March,2024',
       tags:['Engineering','PCM']
     },
     {
@@ -83,6 +91,7 @@ const RecommendedExamsData = [
       board:'Osmania University',
       applied_people:'7 Lakhs',
       exam_fee:800,
+      exam_date:'23 March,2024',
       tags:['Engineering','Degree','PCM']
     },
     {
@@ -92,6 +101,7 @@ const RecommendedExamsData = [
       board:'Andhra University',
       applied_people:'5 Lakhs',
       exam_fee:600,
+      exam_date:'23 March,2024',
       tags:['Engineering','Degree','PCM']
     }
   ];

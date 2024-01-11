@@ -26,7 +26,7 @@ const Carosual = () => {
         >
         {images.map((s, i)=> (
         <SwiperSlide key={i}>
-        <Link to={s}>
+        <Link to='/'>
             <img src={s} className='w-full' /> 
         </Link>
         </SwiperSlide>

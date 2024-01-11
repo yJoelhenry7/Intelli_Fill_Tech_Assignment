@@ -9,7 +9,7 @@ const ExamCard = ({cardData , ExamMode}) => {
   return (
     <>
     <div className="flex items-center justify-between mb-2">
-        <img src={cardData.icon} className='w-14 border border-gray-400 opacity-7 rounded-xl' />
+        <img src={cardData.icon} className='w-14 border border-gray-400 opacity-7 rounded-xl' alt={cardData.exam_name} />
         <div className="flex flex-col items-center justify-center">
             <h1 className='text-center font-bold capitalize'>{cardData.exam_name}</h1>
             <p className="text-center text-sm opacity-50">{cardData.board}</p>
