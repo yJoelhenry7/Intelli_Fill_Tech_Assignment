@@ -12,44 +12,44 @@ import 'swiper/css/autoplay';
 
 const RecentExams = () => {
   const images = [
-    {icon: ExamIcons.nta,
-     exam_name:'JEE Mains 2024',
-     board:'National Testing Agency',
-     applied_people:'20Lakh',
-     exam_fee:1200,
-     tags:['Engineering','IIT','PCM']
+    {icon: ExamIcons.vit,
+     exam_name:'VITEEE 2024',
+     board:'Vellore Institute of Technology',
+     applied_people:'10 Lakhs',
+     exam_fee:1500,
+     tags:['Engineering','PCM']
     },
     {
-      icon:ExamIcons.ssc,
-      exam_name:'Civil Services 2024',
-      board:'Union Public Service Commission',
-      applied_people:'15Lakh',
-      exam_fee:1500,
-      tags:['Engineering','PCM']
-    },
-    {
-      icon:ExamIcons.upsc,
-      exam_name:'SSC CGL 2024',
-      board:'Staff Selection Commission',
-      applied_people:'10Lakh',
+      icon:ExamIcons.srm,
+      exam_name:'SRMJEE 2024',
+      board:'SRMIST',
+      applied_people:'10 Lakhs',
       exam_fee:1000,
       tags:['Engineering','PCM']
     },
     {
-      icon:ExamIcons.rrb,
-      exam_name:'IBPS RRB 2024',
-      board:'Railway Recruitment Board',
-      applied_people:'7Lakh',
-      exam_fee:850,
+      icon:ExamIcons.tsemacet,
+      exam_name:'TS EAMCT 2024',
+      board:'TSCHE',
+      applied_people:'10 Lakhs',
+      exam_fee:1000,
+      tags:['Engineering','PCM']
+    },
+    {
+      icon:ExamIcons.osmania,
+      exam_name:'OUCET',
+      board:'Osmania University',
+      applied_people:'7 Lakhs',
+      exam_fee:800,
       tags:['Engineering','Degree','PCM']
     },
     {
-      icon:ExamIcons.nta,
-      exam_name:'NEET 2023',
-      board:'National Testing Agency',
-      applied_people:'16Lakh',
-      exam_fee:1700,
-      tags:['MBBS','AIMS']
+      icon:ExamIcons.au,
+      exam_name:'AUEET 2024',
+      board:'Andhra University',
+      applied_people:'5 Lakhs',
+      exam_fee:600,
+      tags:['Engineering','Degree','PCM']
     }
   ];
   const recentExamTags =['ALL', 'GATE', 'AP EAPCET', 'BITSAT', 'JEE MAINS', 'JEE Advanced', 'TS EAMCET', 'Amity JEE', 'NEET', 'VITEEE', 'WBJEE', 'KCET', 'SRMJEEE', 'COMEDK', 'MHT CET', 'UPSEE', 'TANCET', 'KIITEE', 'GUJCET', 'Karnataka PGCET', 'OJEE', 'BVP CET', 'LPUNEST', 'SAAT', 'KIIT Entrance Exam', 'CUCET', 'AIIMS', 'AFMC', 'JIPMER', 'CMC Vellore', 'MANIPAL MET', 'IISER', 'NATA', 'CEED'];

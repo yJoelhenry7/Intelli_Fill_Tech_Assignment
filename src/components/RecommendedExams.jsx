@@ -15,7 +15,7 @@ const RecommendedExams = () => {
     {icon: ExamIcons.nta,
      exam_name:'JEE Mains 2024',
      board:'National Testing Agency',
-     applied_people:'20Lakh',
+     applied_people:'20 Lakhs',
      exam_fee:1200,
      tags:['Engineering','IIT','PCM']
     },
@@ -23,7 +23,7 @@ const RecommendedExams = () => {
       icon:ExamIcons.ssc,
       exam_name:'Civil Services 2024',
       board:'Union Public Service Commission',
-      applied_people:'15Lakh',
+      applied_people:'15 Lakhs',
       exam_fee:1500,
       tags:['Engineering','PCM']
     },
@@ -31,7 +31,7 @@ const RecommendedExams = () => {
       icon:ExamIcons.upsc,
       exam_name:'SSC CGL 2024',
       board:'Staff Selection Commission',
-      applied_people:'10Lakh',
+      applied_people:'10 Lakhs',
       exam_fee:1000,
       tags:['Engineering','PCM']
     },
@@ -39,7 +39,7 @@ const RecommendedExams = () => {
       icon:ExamIcons.rrb,
       exam_name:'IBPS RRB 2024',
       board:'Railway Recruitment Board',
-      applied_people:'7Lakh',
+      applied_people:'7 Lakhs',
       exam_fee:850,
       tags:['Engineering','Degree','PCM']
     },
@@ -47,7 +47,7 @@ const RecommendedExams = () => {
       icon:ExamIcons.nta,
       exam_name:'NEET 2023',
       board:'National Testing Agency',
-      applied_people:'16Lakh',
+      applied_people:'16 Lakhs',
       exam_fee:1700,
       tags:['MBBS','AIMS']
     }
