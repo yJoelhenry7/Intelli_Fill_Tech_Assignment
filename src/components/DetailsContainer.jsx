@@ -1,6 +1,7 @@
 import { Link, useLocation, useParams } from "react-router-dom"
 import { GoArrowLeft } from "react-icons/go";
 import ExamDetailCard from "./cards/ExamDetailCard";
+import ExamCardDesc from "./cards/ExamCardDesc";
 
 const DetailsContainer = () => {
     let { mode } = useParams();
@@ -13,12 +14,12 @@ const DetailsContainer = () => {
             <Link to='/'><GoArrowLeft className='scale-150'/></Link>
             <Link to='/' className="text-lg font-bold">Back</Link>
         </div>
-        <div className="flex justify-between gap-4">
+        <div className="flex justify-between gap-4 mt-4">
             <div className="basis-1/2">
                <ExamDetailCard mode={mode} id={id}/>
+               <ExamCardDesc />
             </div>
             <div className="basis-1/2">
-               <ExamDetailCard mode={mode} id={id}/>
             </div>
         </div>
       
