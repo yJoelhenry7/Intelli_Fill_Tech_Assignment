@@ -1,8 +1,9 @@
-# React + Vite
+**Hosted Site URL :** https://intellifilltech-assignment.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Demo Video :**
+<video  src='https://github.com/yJoelhenry7/Intelli_Fill_Tech_Assignment/assets/86186443/a36eba40-b4c3-445d-9811-0aa4dbe3a15b'/>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Home Page : https://intellifilltech-assignment.netlify.app/ <br/>
+
+Exam Details Page : https://intellifilltech-assignment.netlify.app/details/RecommendedExams?id=1
